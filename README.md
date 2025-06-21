@@ -20,14 +20,14 @@ No caso deste projeto, o tipo específico de dado armazenado é a estrutura `Cli
 - Renda Mensal : `float renda_mensal`
 
 Para maior facilidade ao utilizar o TAD, o programa oferece um menu interativo, permitindo que o usuário escolha qual operação realizar:
-    - 1: Criar lista
-    - 2: Inserir Cliente
-    - 3: Listar Clientes
-    - 4: Consultar cliente por CPF
-    - 5: Remover cliente por CPF
-    - 6: Esvaziar lista
-    - 7: Destruir lista
-    - 0: Sair do programa
+- 1: Criar lista
+- 2: Inserir Cliente
+- 3: Listar Clientes
+- 4: Consultar cliente por CPF
+- 5: Remover cliente por CPF
+- 6: Esvaziar lista
+- 7: Destruir lista
+- 0: Sair do programa
 
 ---
 
