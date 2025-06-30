@@ -52,7 +52,7 @@ Para maior facilidade ao utilizar o TAD, o programa oferece um menu interativo, 
 #### Clone o repositório no terminal (powershell ou prompt de comando)
 
 ```bash
-git clone https://github.com/brendda-thamyres/TAD_generico_ED1.git
+git clone https://github.com/brendda-thamyres/TAD_SLList_ED1.git
 ````
 
 ### Via MYSYS2
