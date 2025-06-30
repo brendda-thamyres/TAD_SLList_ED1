@@ -27,10 +27,11 @@ void freeCliente(void *data) {
 }
 
 //função que compara por cpf
+//função que compara por cpf
 int cmp(void *key, void *data) {
     int k = *(int *)key;
     Cliente *c = (Cliente *)data;
-    return (k == c->cpf) ? 1 : 0;
+    return (k == c->cpf);
 }
 
 //menu

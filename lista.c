@@ -33,7 +33,7 @@ void *SLLRemove(SLList *l, void *key, int (*cmp)(void *, void *)) {
     SLNode *cur = l->first;
     SLNode *prev = NULL;
 
-    while (cur != NULL && cmp(key, cur->data) != 1) {
+    while (cur != NULL && !cmp(key, cur->data)) {
         prev = cur;
         cur = cur->next;
     }
